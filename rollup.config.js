@@ -11,6 +11,7 @@ let systemPath = foundryPath.systemPath(manifest.id)
 
 console.log("Bundling to " + systemPath)
 
+# check later 
 export default {
   input: [`./scripts/${manifest.id}.js`, `./style/${manifest.id}.scss`],
     output: {
